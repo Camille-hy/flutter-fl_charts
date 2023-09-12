@@ -25,7 +25,6 @@ class _BarChartExampleState extends State<BarChartExample> {
               gridData: const FlGridData(show: false),
               alignment: BarChartAlignment.spaceAround,
               maxY: 20,
-              backgroundColor: Color.fromARGB(255, 233, 228, 228)
             ),
           ),
         ),
@@ -34,7 +33,7 @@ class _BarChartExampleState extends State<BarChartExample> {
     }
 
     BarTouchData get barTouchData => BarTouchData(
-      enabled: false,
+      // enabled: true,
       touchTooltipData: BarTouchTooltipData(
         tooltipBgColor: Colors.transparent,
         tooltipPadding: EdgeInsets.zero,
@@ -124,7 +123,6 @@ class _BarChartExampleState extends State<BarChartExample> {
       colors: [
         Colors.blueAccent,
         Colors.redAccent,
-        
       ],
       begin: Alignment.bottomCenter,
       end: Alignment.topCenter,
